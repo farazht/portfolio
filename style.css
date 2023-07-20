@@ -1,0 +1,162 @@
+body {
+  background-color: #031927;
+  color: rgb(220, 220, 220);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+/* sections */
+#overlay {
+  height: 100vh;
+  width: 30vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#homeContainer {
+  height: 100vh;
+  width: 100vw;
+}
+#home {
+  padding-left: 15%;
+  padding-top: 15%;
+  width: 50%;
+}
+#about {
+  padding-left: 15%;
+  width: 50%;
+}
+#projects {
+  padding-left: 15%;
+  padding-top: 5%;
+  width: 50%;
+}
+#contact {
+  padding-left: 15%;
+  padding-top: 5%;
+  width: 50%;
+  clear: both;
+}
+#footer {
+  text-align: center;
+  font-size: 0.6em;
+  padding: 1% 0;
+  color: rgb(150, 150, 150);
+}
+
+/* text effects */
+#title {
+  font-size: 3.5em;
+  font-weight: 700;
+}
+.highlight {
+  color: rgb(255, 255, 255);
+}
+.bold {
+  font-weight: 700;
+}
+.enchanted {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  background-color: #000;
+  background-image: linear-gradient(45deg, rgb(115, 150, 255) 25%, rgb(100, 215, 255) 75%);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mini {
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(150, 150, 150);
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+/* buttons */
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 1.5em 2.2em;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  transition: background-color 0.1s ease-in-out;
+}
+.button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+/* projects */
+.projectContainer {
+  width: 275px;
+  height: 500px;
+  max-width: 275px;
+  max-height: 500px;
+  min-width: 275px;
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+.projectImageContainer{
+  width: 265px;
+  height: 265px;
+  max-width: 265px;
+  max-height: 265px;
+  min-width: 265px;
+  min-height: 265px;
+
+  padding: 0;
+  margin-bottom: 1em;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.projectImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.projectTitle{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+.projectTechnologies {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  color:rgb(150, 150, 150)
+}
+
+/* misc */
+.contactSVG {
+  width: 1.2em;
+  height: 1.2em;
+  stroke: white;
+  padding: 0;
+}
+.contactA {
+  width: 1.2em;
+  height: 1.2em;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.verticalLine {
+  border: 1px solid rgb(255, 255, 255);
+  height: 20vh;
+}
