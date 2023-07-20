@@ -1,0 +1,33 @@
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 1.5em 2.2em;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  transition: background-color 0.1s ease-in-out;
+}
+.button:hover {
+  background-color: rgb(255, 255, 255);
+}
+.contact-svg {
+  width: 1.2em;
+  height: 1.2em;
+  stroke: white;
+  padding: 0;
+}
+.contact-a {
+  width: 1.2em;
+  height: 1.2em;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.vertical-line {
+  border: 1px solid rgb(255, 255, 255);
+  height: 20vh;
+}
+.mini-flag {
+  width: 1em;
+  height: 1em;
+}
