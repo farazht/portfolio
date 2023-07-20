@@ -23,11 +23,25 @@
   margin: 0;
   padding: 0;
 }
+.mini-flag {
+  width: 1em;
+  height: 1em;
+}
+
 .vertical-line {
   border: 1px solid rgb(255, 255, 255);
   height: 20vh;
 }
-.mini-flag {
-  width: 1em;
-  height: 1em;
+.horizontal-line {
+  border: 1px solid rgb(150, 150, 150);
+  width: 30vw;
+  margin-bottom: 4%;
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+  .horizontal-line {
+    border: 1px solid rgb(150, 150, 150);
+    width: 50vw;
+    margin-bottom: 4%;
+  }
 }
