@@ -49,3 +49,57 @@ body {
     padding: 1% 0;
     color: rgb(150, 150, 150);
 }
+
+@media (max-width: 767px) and (orientation: portrait) {
+    body {
+        background-color: #031927;
+        color: rgb(220, 220, 220);
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+    }
+    #overlay {
+        height: 100vh;
+        width: 10vw;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #home-container {
+        height: 100vh;
+        width: 100vw;
+    }
+    #home {
+        padding-left: 5%;
+        padding-top: 50%;
+        width: 70%;
+    }
+    #about {
+        padding-left: 5%;
+        width: 70%;
+    }
+    #projects {
+        padding-left: 5%;
+        padding-top: 5%;
+        width: 70%;
+    }
+    #contact {
+        padding-left: 5%;
+        padding-top: 5%;
+        width: 70%;
+        clear: both;
+    }
+    #footer {
+        text-align: center;
+        font-size: 0.6em;
+        padding: 1% 0;
+        color: rgb(150, 150, 150);
+    }
+}
