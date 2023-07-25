@@ -1,8 +1,18 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../assets/fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../assets/fonts/Nunito-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
 body {
     background-color: #031927;
     color: rgb(220, 220, 220);
     font-family: 'Nunito', sans-serif;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 1em;
     margin: 0;
     padding: 0;
@@ -50,6 +60,7 @@ body {
     color: rgb(150, 150, 150);
 }
 
+/* mobile/tablet */
 @media (max-width: 767px) and (orientation: portrait) {
     body {
         background-color: #031927;

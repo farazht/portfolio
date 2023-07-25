@@ -20,20 +20,13 @@
   <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
 
   <!-- stylesheets -->
-  <link rel="stylesheet" href="css/misc.css">
-  <link rel="stylesheet" href="css/mobile.css">
-  <link rel="stylesheet" href="css/project-box.css">
-  <link rel="stylesheet" href="css/sections.css">
-  <link rel="stylesheet" href="css/text-effects.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/misc.css">
+  <link rel="stylesheet" href="styles/project-box.css">
+  <link rel="stylesheet" href="styles/text-effects.css">
 
   <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-  
+
   <!-- scripts -->
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script src="scripts/typing-animation.js" defer></script>
@@ -48,7 +41,7 @@
       <img class="contact-svg" alt="Email Icon" src="assets/icons/email.svg">
     </a> <br>
     <a class="contact-a" target="_blank" href="https://www.linkedin.com/in/faraz-ht/">
-      <img class="contact-svg" alt="LinkedIn Icon" src="assets/icons/linkedin.svg">
+      <img class="contact-svg" alt="LinkedIn Icon" style="scale: 0.85;" src="assets/icons/linkedin.svg">
     </a> <br>
     <a class="contact-a" target="_blank" href="https://github.com/farazht">
       <img class="contact-svg" alt="GitHub Icon" src="assets/icons/github.svg">
@@ -59,15 +52,15 @@
   <!-- home -->
   <div id="home-container">
     <div id="home">
-      <h1 class="highlight bold" id="title" style="margin-bottom: 0%;">hey, i'm <b class="enchanted bold">faraz</b>.</h1>
+      <h1 class="highlight bold" id="title" style="margin-bottom: 0%;">hey, i'm <b class="enchanted bold">Faraz</b>.</h1>
       <h2 style="margin-top: 0%;"><span class="typing-animation"></span></h2>
-      <button class="button"><span class="enchanted">resume (PDF) ⬇</span></button>
+      <button class="button"><span class="enchanted">resume (soon)</span></button>
     </div>
   </div>
 
   <!-- about -->
   <div id="about" style="margin-top: 0%;">
-    <h1 class="highlight bold" style="margin-bottom: 0%;">about</h1>
+    <h1 class="highlight bold" style="margin-bottom: 0%;"><span class="mini">1.</span> About Me</h1>
     <div class="horizontal-line"></div>
     <p>
       My name is <b class="highlight">Faraz Hosseinian-Tehrani</b> <span class="mini">(<img class="mini-flag" src="assets/icons/canada-flag.png" title="Flag of Canada"/> & <img class="mini-flag" alt="Flag of Iran" src="assets/icons/iran-flag.png" title="Flag of Iran">)</span> and I'm currently a full-time student
@@ -76,7 +69,7 @@
     </p>
     <p>
       From a young age, I've always been interested in <b class="highlight bold">science and technology</b>. These days, I'm passionate about software 
-      development, data, machine learning, artificial intelligence, and <b class="highlight bold">much more</b>. 
+      development, data, machine learning, artificial intelligence, and much more. 
     </p>
     <p>
       Here are some <b class="highlight bold">technologies</b> I've been working with recently:
@@ -88,11 +81,15 @@
       <li>
         <b class="highlight bold">Tools:</b> GitHub, Excel, Sheets, Firebase, VS Code, Jupyter Notebook
       </li>
+    </ul>
+    <p>
+      Below are some of the things I've made in the past year or two, most of which were created just for fun.
+    </p>
   </div>
 
   <!-- projects -->
   <div id="projects">
-    <h1 class="highlight bold" style="margin-bottom: 0%;">projects</h1>
+    <h1 class="highlight bold" style="margin-bottom: 0%;"><span class="mini">2.</span> Projects</h1>
     <div class="horizontal-line"></div>
 
     <!-- project 1 -->
@@ -102,7 +99,7 @@
       </div>
       <div class="project-text-container">
         <a target="_blank" href="https://farazht.github.io/chaos/" class="project-title enchanted bold">elegantchaos</a>
-        <p>Web-based tool for <b class="highlight bold">visualizing chaotic mathematical systems</b>. Complete with extensive <b class="highlight bold">customization</b> options, <b class="highlight bold">import/export</b> functionality, and thorough explanations.</p>
+        <p>Web-based tool for <b class="highlight bold">visualizing chaotic mathematical systems</b>. Complete with extensive customization options, import/export functionality, and thorough explanations.</p>
         <p class="project-technologies">JavaScript, HTML, CSS</p>
       </div>
     </div>
@@ -119,11 +116,38 @@
       </div>
     </div>
 
+    <!-- project 3 -->
+    <div class="project-container">
+      <div class="project-image-container">
+        <img class="project-image" src="assets/projects/goat.png">
+        <img class="project-image" alt="Project Preview" src="assets/projects/goat.png">
+      </div>
+      <div class="project-text-container">
+        <a target="_blank" href="https://whos-the-goat.web.app/" class="project-title enchanted bold">Who's the GOAT?</a>
+        <p>A <span class="mini">(very serious and accurate)</span> experiment to determine the <b class="highlight bold">Greatest Human Of All Time</b>. Synchronized with a <b class="highlight bold">Firebase database</b> for ranking updates and user submissions. Made w/ <a class="enchanted bold" href="https://jacob-guglielmin.web.app/" target="_blank">@Jacob Guglielmin</a>. </p>
+        <p class="project-technologies">JavaScript, HTML, CSS, Firebase</p>
+      </div>
+    </div>
+
+    <!-- project 4 -->
+    <div class="project-container">
+      <div class="project-image-container">
+        <img class="project-image" src="assets/projects/discord.png">
+        <img class="project-image" alt="Project Preview" src="assets/projects/discord.png">
+      </div>
+      <div class="project-text-container">
+        <a target="_blank" href="https://github.com/farazht/discord-word-game" class="project-title enchanted bold">Showdown!</a>
+        <p><b class="highlight bold">Discord bot</b> hosting a fast, turn-based word game. Features multiple gamemodes <span class="mini">(+ a unique RegEx-based challenge for the CS students)</span> and tutorials / user help.</p>
+        <p class="project-technologies">Python, discord.py</p>
+      </div>
+    </div>
+  </div>
+
   </div>
 
   <!-- contact -->
   <div id="contact">
-    <h1 class="highlight bold" style="margin-bottom: 0%;">contact</h1>
+    <h1 class="highlight bold" style="margin-bottom: 0%;"><span class="mini">3.</span> Contact</h1>
     <div class="horizontal-line"></div>
     <p>Available for select work, research, or freelance opportunities.</p>
     <p>For any <b class="highlight bold">inquiries</b> <span class="mini">(whether casual or professional):</span> <a class="enchanted bold" target="_blank" href="mailto:tehranifaraz314@gmail.com">tehranifaraz314@gmail.com</a></p>
