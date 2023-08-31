@@ -23,7 +23,7 @@
     min-width: 265px;
     min-height: 265px;
     padding: 0;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
     overflow: hidden;
@@ -37,14 +37,14 @@
 }
 
 .project-title{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
 }
 
 .project-technologies {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: 400;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
     color:rgb(150, 150, 150)
 }

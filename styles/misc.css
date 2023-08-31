@@ -1,7 +1,7 @@
 .button {
   display: inline-block;
   border-radius: 5px;
-  padding: 1.5em 2.2em;
+  padding: 1.5rem 2.2rem;
   color: #fff;
   background-color: transparent;
   border: 2px solid rgb(255, 255, 255);
@@ -13,40 +13,40 @@
 }
 
 .contact-svg {
-  width: 1.2em;
-  height: 1.2em;
+  width: 1.2rem;
+  height: 1.2rem;
   stroke: white;
   padding: 0;
 }
 
 .contact-a {
-  width: 1.2em;
-  height: 1.2em;
+  width: 1.2rem;
+  height: 1.2rem;
   text-decoration: none;
   margin: 0;
   padding: 0;
 }
 
 .mini-flag {
-  width: 1em;
-  height: 1em;
+  width: 1rem;
+  height: 1rem;
 }
 
 .vertical-line {
   border: 1px solid rgb(255, 255, 255);
-  height: 20vh;
+  height: 20lvh;
 }
 
 .horizontal-line {
   border: 1px solid rgb(150, 150, 150);
-  width: 30vw;
+  width: 65%;
   margin-bottom: 4%;
 }
 
 @media (max-width: 767px) and (orientation: portrait) {
   .horizontal-line {
     border: 1px solid rgb(150, 150, 150);
-    width: 50vw;
+    width: 100%;
     margin-bottom: 4%;
   }
 }

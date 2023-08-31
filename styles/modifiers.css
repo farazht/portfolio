@@ -1,6 +1,6 @@
 /* text */
 #title {
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .mini {
-    font-size: 1em;
+    font-size: 2rem;
     font-weight: normal;
     color: rgb(150, 150, 150);
     font-family: 'Nanum Pen Script', cursive;
@@ -47,10 +47,10 @@
 /* mobile/tablet */
 @media (max-width: 767px) and (orientation: portrait) {
     #title {
-        font-size: 2.25em;
+        font-size: 2.25rem;
         font-weight: 700;
     }
     .typing-animation {
-        font-size: 0.75em;
+        font-size: 0.75rem;
     }
 }
