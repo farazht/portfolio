@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'Nanum Pen Script', cursive;
-    src: url('../assets/fonts/NanumPenScript-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
-
+/* text */
 #title {
     font-size: 3.5em;
     font-weight: 700;
@@ -34,6 +29,20 @@
     color: rgb(150, 150, 150);
     font-family: 'Nanum Pen Script', cursive;
 }
+
+/* non-text */
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+.no-top-margin {
+    margin-top: 0;
+}
+
+.smaller {
+    scale: 0.85;
+}
+
 
 /* mobile/tablet */
 @media (max-width: 767px) and (orientation: portrait) {

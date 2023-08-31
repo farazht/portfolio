@@ -8,7 +8,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-RVFRTTF4FQ');
   </script>
 
@@ -22,10 +21,13 @@
   <!-- stylesheets -->
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/misc.css">
+  <link rel="stylesheet" href="styles/modifiers.css">
   <link rel="stylesheet" href="styles/project-box.css">
-  <link rel="stylesheet" href="styles/text-effects.css">
 
   <!-- fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Nunito:wght@400;700&display=swap');
+  </style>
 
   <!-- scripts -->
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -41,7 +43,7 @@
       <img class="contact-svg" alt="Email Icon" src="assets/icons/email.svg">
     </a> <br>
     <a class="contact-a" target="_blank" href="https://www.linkedin.com/in/faraz-ht/">
-      <img class="contact-svg" alt="LinkedIn Icon" style="scale: 0.85;" src="assets/icons/linkedin.svg">
+      <img class="contact-svg smaller" alt="LinkedIn Icon" src="assets/icons/linkedin.svg">
     </a> <br>
     <a class="contact-a" target="_blank" href="https://github.com/farazht">
       <img class="contact-svg" alt="GitHub Icon" src="assets/icons/github.svg">
@@ -52,15 +54,15 @@
   <!-- home -->
   <div id="home-container">
     <div id="home">
-      <h1 class="highlight bold" id="title" style="margin-bottom: 0%;">hey, i'm <b class="enchanted bold">faraz</b>.</h1>
-      <h2 style="margin-top: 0%;"><span class="typing-animation"></span></h2>
-      <button class="button"><span class="enchanted">resume (soon)</span></button>
+      <h1 class="highlight bold no-bottom-margin" id="title">hey, i'm <b class="enchanted bold">faraz</b>.</h1>
+      <h2 class="no-top-margin"><span class="typing-animation"></span></h2>
+      <!-- <button class="button"><span class="enchanted">resume</span></button> -->
     </div>
   </div>
 
   <!-- about -->
-  <div id="about" style="margin-top: 0%;">
-    <h1 class="highlight bold" style="margin-bottom: 0%;"><span class="mini">1.</span> About Me</h1>
+  <div id="about" class="no-bottom-margin">
+    <h1 class="highlight bold no-bottom-margin"><span class="mini">1.</span> About Me</h1>
     <div class="horizontal-line"></div>
     <p>
       My name is <b class="highlight">Faraz Hosseinian-Tehrani</b> <span class="mini">(<img class="mini-flag" src="assets/icons/canada-flag.png" title="Flag of Canada"/> & <img class="mini-flag" alt="Flag of Iran" src="assets/icons/iran-flag.png" title="Flag of Iran">)</span> and I'm currently a full-time student
@@ -89,7 +91,7 @@
 
   <!-- projects -->
   <div id="projects">
-    <h1 class="highlight bold" style="margin-bottom: 0%;"><span class="mini">2.</span> Projects</h1>
+    <h1 class="highlight bold no-bottom-margin"><span class="mini">2.</span> Projects</h1>
     <div class="horizontal-line"></div>
 
     <!-- project 1 -->
@@ -120,7 +122,7 @@
 
   <!-- contact -->
   <div id="contact">
-    <h1 class="highlight bold" style="margin-bottom: 0%;"><span class="mini">3.</span> Contact</h1>
+    <h1 class="highlight bold no-bottom-margin"><span class="mini">3.</span> Contact</h1>
     <div class="horizontal-line"></div>
     <p>Available for select work, research, or freelance opportunities.</p>
     <p>For any <b class="highlight bold">inquiries</b> <span class="mini">(whether casual or professional):</span> <a class="enchanted bold" target="_blank" href="mailto:tehranifaraz314@gmail.com">tehranifaraz314@gmail.com</a></p>
