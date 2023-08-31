@@ -1,18 +1,15 @@
-@font-face {
-    font-family: 'Nunito';
-    src: url('../assets/fonts/Nunito-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('../assets/fonts/Nunito-Bold.ttf') format('truetype');
-    font-weight: bold;
+:root {
+    --background-color: rgb(5, 25, 40);
+    --primary-color: rgb(220, 220, 220);
+    --lighter-color: rgb(255, 255, 255);
+    --darker-color: rgb(150, 150, 150);
+    --gradient-start-color: rgb(115, 150, 255);
+    --gradient-end-color: rgb(100, 215, 255);
 }
 
 body {
-    background-color: #031927;
-    color: rgb(220, 220, 220);
+    background-color: var(--background-color);
+    color: var(--primary-color);
     font-family: 'Nunito', sans-serif;
     font-weight: normal;
     font-size: 1rem;
@@ -67,7 +64,7 @@ body {
     text-align: center;
     font-size: 0.6rem;
     padding: 1% 0;
-    color: rgb(150, 150, 150);
+    color: var(--darker-color);
 }
 
 /* mobile/tablet */

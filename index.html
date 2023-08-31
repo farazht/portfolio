@@ -19,6 +19,7 @@
   <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
 
   <!-- stylesheets -->
+  <link rel="stylesheet" href="styles/color-buttons.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/misc.css">
   <link rel="stylesheet" href="styles/modifiers.css">
@@ -32,6 +33,7 @@
   <!-- scripts -->
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script src="scripts/typing-animation.js" defer></script>
+  <script src="scripts/color-changer.js" defer></script>
 
 </head>
 <body>
@@ -70,7 +72,7 @@
       <b class="highlight bold">Major in Computer Science</b> and a <b class="highlight bold">Minor in Data Science</b>.
     </p>
     <p>
-      I've been fascinated by science and technology since I was a child. These days, I'm passionate about 
+      I've been interested science and technology since I was a child. These days, I'm passionate about 
       software development, data, machine learning, artificial intelligence, and a variety of other topics.
     </p>
     <p>
@@ -78,14 +80,17 @@
     </p>
     <ul>
       <li>
-        <b class="highlight bold">Languages:</b> Python, HTML, CSS <span class="mini">(unfortunately)</span>, JavaScript, Git, LaTeX
+        <b class="highlight bold">Languages:</b> Python, JavaScript, HTML, CSS, R
       </li>
       <li>
-        <b class="highlight bold">Tools:</b> GitHub, Excel, Sheets, Firebase, VS Code, Jupyter Notebook
+        <b class="highlight bold">Libraries:</b> NumPy, Pandas, Matplotlib, scikit-learn, seaborn
+      </li>
+      <li>
+        <b class="highlight bold">Misc/Tools:</b> Git & GitHub, Excel, Sheets, Firebase, LaTeX, Jupyter
       </li>
     </ul>
     <p>
-      Below are some of the things I've made in the past year or two, most of which were just created for fun.
+      Below are some <b class="highlight bold">projects</b> I've made in the past year or two.
     </p>
   </div>
 
@@ -131,6 +136,16 @@
 
   <!-- footer -->
   <div id="footer">
+    <button class="color-button" id="background-button"></button>
+    <button class="color-button" id="primary-button"></button>
+    <button class="color-button" id="lighter-button"></button>
+    <button class="color-button" id="darker-button"></button>
+    <button class="color-button" id="gradient-start-button"></button>
+    <button class="color-button" id="gradient-end-button"></button>
+    <button id="reset-button">
+      <img alt="Reset Icon" src="assets/icons/red-x.svg">
+    </button>
+
     <p>Check out the <a class="enchanted" target="_blank" href="https://github.com/farazht/personal-website">source code</a>.<br>© 2023 Faraz Hosseinian-Tehrani.</p>
   </div>
 

@@ -1,0 +1,51 @@
+.color-button {
+    border: 3px solid black;
+    width: 2rem;
+    height: 2rem;
+    margin: 0.25rem;
+    margin-top: 3rem;
+    padding: 0;
+    cursor: pointer;
+}
+
+#background-button {
+    background-color: var(--background-color);
+}
+
+#primary-button {
+    background-color: var(--primary-color);
+}
+
+#lighter-button {
+    background-color: var(--lighter-color);
+}
+
+#darker-button {
+    background-color: var(--darker-color);
+}
+
+#gradient-start-button {
+    background-color: var(--gradient-start-color);
+}
+
+#gradient-end-button {
+    background-color: var(--gradient-end-color);
+}
+
+#reset-button {
+    border: 3px solid var(--background-color);
+    width: 2rem;
+    height: 2rem;
+    margin: 0.25rem;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+  
+#reset-button img {
+    max-width: 100%;
+    max-height: 100%;
+}
+  

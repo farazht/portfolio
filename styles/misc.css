@@ -4,12 +4,12 @@
   padding: 1.5rem 2.2rem;
   color: #fff;
   background-color: transparent;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid var(--lighter-color);
   transition: background-color 0.1s ease-in-out;
 }
 
 .button:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--lighter-color);
 }
 
 .contact-svg {
@@ -33,19 +33,19 @@
 }
 
 .vertical-line {
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid var(--lighter-color);
   height: 20lvh;
 }
 
 .horizontal-line {
-  border: 1px solid rgb(150, 150, 150);
+  border: 1px solid var(--darker-color);
   width: 65%;
   margin-bottom: 4%;
 }
 
 @media (max-width: 767px) and (orientation: portrait) {
   .horizontal-line {
-    border: 1px solid rgb(150, 150, 150);
+    border: 1px solid var(--darker-color);
     width: 100%;
     margin-bottom: 4%;
   }
