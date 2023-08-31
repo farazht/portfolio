@@ -24,6 +24,13 @@
 }
 
 .mini {
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgb(150, 150, 150);
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.small {
     font-size: 2rem;
     font-weight: normal;
     color: rgb(150, 150, 150);
