@@ -1,25 +1,25 @@
 document.getElementById('background-button').addEventListener('click', function () {
-    document.documentElement.style.setProperty('--background-color', 'hsl(' + Math.random() * 360 + ', 100%, 15%)');
+    document.documentElement.style.setProperty('--background-color', 'hsl(' + Math.random() * 360 + ', 100%, 10%)');
 });
 
 document.getElementById('primary-button').addEventListener('click', function () {
-    document.documentElement.style.setProperty('--primary-color', 'hsl(' + Math.random() * 360 + ', 100%, 65%)');
+    document.documentElement.style.setProperty('--primary-color', 'hsl(' + Math.random() * 360 + ', 100%, 80%)');
 });
 
 document.getElementById('lighter-button').addEventListener('click', function () {
-    document.documentElement.style.setProperty('--lighter-color', 'hsl(' + Math.random() * 360 + ', 100%, 85%)');
+    document.documentElement.style.setProperty('--lighter-color', 'hsl(' + Math.random() * 360 + ', 100%, 90%)');
 });
 
 document.getElementById('darker-button').addEventListener('click', function () {
-    document.documentElement.style.setProperty('--darker-color', 'hsl(' + Math.random() * 360 + ', 100%, 45%)');
+    document.documentElement.style.setProperty('--darker-color', 'hsl(' + Math.random() * 360 + ', 100%, 70%)');
 });
 
 document.getElementById('gradient-start-button').addEventListener('click', function () {
-    document.documentElement.style.setProperty('--gradient-start-color', 'hsl(' + Math.random() * 360 + ', 100%, 65%)');
+    document.documentElement.style.setProperty('--gradient-start-color', 'hsl(' + Math.random() * 360 + ', 100%, 50%)');
 });
 
 document.getElementById('gradient-end-button').addEventListener('click', function () {
-    document.documentElement.style.setProperty('--gradient-end-color', 'hsl(' + Math.random() * 360 + ', 100%, 45%)');
+    document.documentElement.style.setProperty('--gradient-end-color', 'hsl(' + Math.random() * 360 + ', 100%, 50%)');
 });
 
 document.getElementById('reset-button').addEventListener('click', function () {
