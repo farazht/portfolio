@@ -15,7 +15,7 @@
 .contact-svg {
   width: 1.2rem;
   height: 1.2rem;
-  stroke: white;
+  fill: var(--lighter-color);
   padding: 0;
 }
 
@@ -43,10 +43,33 @@
   margin-bottom: 4%;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  font-family: "Nunito", sans-serif;
+  visibility: hidden;
+  width: 120px;
+  color: var(--lighter-color);
+  padding-left: 0.5rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
 @media (max-width: 767px) and (orientation: portrait) {
   .horizontal-line {
     border: 1px solid var(--darker-color);
     width: 100%;
     margin-bottom: 4%;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: hidden;
   }
 }

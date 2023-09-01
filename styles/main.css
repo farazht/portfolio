@@ -38,8 +38,11 @@ body {
 
 #home {
     padding-left: 15%;
-    padding-top: 15%;
     width: 50%;
+    height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #about {
@@ -75,22 +78,21 @@ body {
     }
     #home {
         padding-left: 5%;
-        padding-top: 50%;
-        width: 70%;
+        width: 80%;
     }
     #about {
         padding-left: 5%;
-        width: 70%;
+        width: 80%;
     }
     #projects {
         padding-left: 5%;
         padding-top: 5%;
-        width: 70%;
+        width: 80%;
     }
     #contact {
         padding-left: 5%;
         padding-top: 5%;
-        width: 70%;
+        width: 80%;
         clear: both;
     }
 }

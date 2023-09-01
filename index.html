@@ -20,6 +20,7 @@
 
   <!-- stylesheets -->
   <link rel="stylesheet" href="styles/color-buttons.css">
+  <link rel="stylesheet" href="styles/contact-box.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/misc.css">
   <link rel="stylesheet" href="styles/modifiers.css">
@@ -34,6 +35,15 @@
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script src="scripts/typing-animation.js" defer></script>
   <script src="scripts/color-changer.js" defer></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("IosrT7wWfMddF8_7S");
+    })();
+  </script>
+  <script src="scripts/contact-form.js" defer></script>
 
 </head>
 <body>
@@ -41,14 +51,17 @@
   <!-- overlay -->
   <div id="overlay">
     <div class="vertical-line"></div> <br>
-    <a class="contact-a" target="_blank" href="mailto:tehranifaraz314@gmail.com">
+    <a class="contact-a tooltip" target="_blank" href="mailto:me@farazht.com">
       <img class="contact-svg" alt="Email Icon" src="assets/icons/email.svg">
+      <span class="tooltip-text">me@farazht.com</span>
     </a> <br>
-    <a class="contact-a" target="_blank" href="https://www.linkedin.com/in/faraz-ht/">
+    <a class="contact-a tooltip" target="_blank" href="https://www.linkedin.com/in/farazht/">
       <img class="contact-svg smaller" alt="LinkedIn Icon" src="assets/icons/linkedin.svg">
+      <span class="tooltip-text">farazht</span>
     </a> <br>
-    <a class="contact-a" target="_blank" href="https://github.com/farazht">
+    <a class="contact-a tooltip" target="_blank" href="https://github.com/farazht">
       <img class="contact-svg" alt="GitHub Icon" src="assets/icons/github.svg">
+      <span class="tooltip-text">farazht</span>
     </a> <br>
     <div class="vertical-line"></div>
   </div>
@@ -57,7 +70,7 @@
   <div id="home-container">
     <div id="home">
       <h1 class="highlight bold no-bottom-margin" id="title">hey, i'm <b class="enchanted bold">faraz</b>.</h1>
-      <h2 class="no-top-margin"><span class="typing-animation"></span></h2>
+      <h2 class="no-top-margin no-bottom-margin"><span class="typing-animation"></span></h2>
       <!-- <button class="button"><span class="enchanted">resume</span></button> -->
     </div>
   </div>
@@ -129,24 +142,22 @@
   <div id="contact">
     <h1 class="highlight bold no-bottom-margin"><span class="small">3.</span> Contact</h1>
     <div class="horizontal-line"></div>
-    <p>Available for select work, research, or freelance opportunities.</p>
-    <p>For any <b class="highlight bold">inquiries</b> <span class="mini">(whether casual or professional):</span> <a class="enchanted bold" target="_blank" href="mailto:tehranifaraz314@gmail.com">tehranifaraz314@gmail.com</a></p>
-    <p>To further explore my <b class="highlight bold">portfolio and projects</b>, visit <a class="enchanted bold" target="_blank" href="https://www.linkedin.com/in/faraz-ht/">LinkedIn/faraz-ht</a> or <a class="enchanted bold" target="_blank" href="https://github.com/farazht">GitHub/farazht</a>.</p>
+
+    <p>Available for select work, research, or freelance opportunities. Please feel free to use this form for casual inquiries as well.</p>
+
+    <div id="contact-container">
+      <input id="contact-name" type="text" placeholder="Name" required>
+      <input id="contact-email" type="text" placeholder="Email" required>
+      <textarea id="contact-message" placeholder="Message" required></textarea>
+      <button id="contact-button"><span class="enchanted bold">Send</span></button>
+    </div>
   </div>
 
   <!-- footer -->
   <div id="footer">
-    <button class="color-button" id="background-button"></button>
-    <button class="color-button" id="primary-button"></button>
-    <button class="color-button" id="lighter-button"></button>
-    <button class="color-button" id="darker-button"></button>
-    <button class="color-button" id="gradient-start-button"></button>
-    <button class="color-button" id="gradient-end-button"></button>
-    <button id="reset-button">
-      <img alt="Reset Icon" src="assets/icons/red-x.svg">
-    </button>
+    <button class="color-button" id="background-button"></button><button class="color-button" id="primary-button"></button><button class="color-button" id="lighter-button"></button><button class="color-button" id="darker-button"></button><button class="color-button" id="gradient-start-button"></button><button class="color-button" id="gradient-end-button"></button><button id="reset-button"><img alt="Reset Icon" src="assets/icons/red-x.svg"></button>
 
-    <p>Check out the <a class="enchanted" target="_blank" href="https://github.com/farazht/personal-website">source code</a>.<br>© 2023 Faraz Hosseinian-Tehrani.</p>
+    <p>Designed and crafted by Faraz Hosseinian-Tehrani.<br>All rights reserved. ©<br><a class="enchanted" target="_blank" href="https://github.com/farazht/personal-website">&lt;/&gt;</a></p>
   </div>
 
 </body>
