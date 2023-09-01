@@ -62,6 +62,16 @@
   visibility: visible;
 }
 
+#secret-button {
+  width: 0.5rem;
+  height: 0.5rem;
+  padding: 0;
+  border-radius: 100%;
+  border: none;
+  margin-left: 0.25rem;
+  cursor: pointer;
+}
+
 @media (max-width: 767px) and (orientation: portrait) {
   .horizontal-line {
     border: 1px solid var(--darker-color);
