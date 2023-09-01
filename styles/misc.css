@@ -70,6 +70,7 @@
   border: none;
   margin-left: 0.25rem;
   cursor: pointer;
+  background-color: var(--lighter-color);
 }
 
 @media (max-width: 767px) and (orientation: portrait) {
