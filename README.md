@@ -12,17 +12,17 @@
 
     HTTPS:
      ```bash
-     git clone https://github.com/farazht/personal-website.git
+     git clone https://github.com/farazht/portfolio.git
      ```
 
    SSH (requires SSH keys set up on your GitHub account):
      ```bash
-     git clone git@github.com:farazht/personal-website.git
+     git clone git@github.com:farazht/portfolio.git
      ```
 
    GitHub CLI (requires installation):
      ```bash
-     gh repo clone farazht/personal-website
+     gh repo clone farazht/portfolio
      ```
 
 2. Open `index.html` in your browser.
