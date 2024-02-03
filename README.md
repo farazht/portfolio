@@ -2,7 +2,7 @@
   farazht.com
 </h1>
 <p align="center">
-  The first iteration of <a href="https://farazht.com" target="_blank">farazht.com</a>, a static site for various links and projects created with HTML/CSS/JS.
+  The first iteration of <a href="https://farazht.com" target="_blank">farazht.com</a>, a static site for various links and projects. Created with HTML/CSS/JS.
 </p>
 <img alt="Homepage Preview" src="https://cdn.discordapp.com/attachments/376890669920157697/1148785456658513920/homepage.png">
 
