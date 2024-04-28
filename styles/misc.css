@@ -32,14 +32,9 @@
   height: 1rem;
 }
 
-.vertical-line {
-  border: 1px solid var(--lighter-color);
-  height: 20lvh;
-}
-
 .horizontal-line {
   border: 1px solid var(--darker-color);
-  width: 65%;
+  width: 100%;
   margin-bottom: 4%;
 }
 

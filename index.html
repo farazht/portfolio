@@ -50,20 +50,9 @@
 
   <!-- overlay -->
   <div id="overlay">
-    <div class="vertical-line"></div> <br>
-    <a class="contact-a tooltip" target="_blank" href="mailto:me@farazht.com">
-      <img class="contact-svg" alt="Email Icon" src="assets/icons/email.svg">
-      <span class="tooltip-text">me@farazht.com</span>
-    </a> <br>
-    <a class="contact-a tooltip" target="_blank" href="https://www.linkedin.com/in/farazht/">
-      <img class="contact-svg smaller" alt="LinkedIn Icon" src="assets/icons/linkedin.svg">
-      <span class="tooltip-text">farazht</span>
-    </a> <br>
-    <a class="contact-a tooltip" target="_blank" href="https://github.com/farazht">
-      <img class="contact-svg" alt="GitHub Icon" src="assets/icons/github.svg">
-      <span class="tooltip-text">farazht</span>
-    </a> <br>
-    <div class="vertical-line"></div>
+    <img class="contact-svg" alt="Email Icon" src="assets/icons/email.svg">
+    <img class="contact-svg smaller" alt="LinkedIn Icon" src="assets/icons/linkedin.svg">
+    <img class="contact-svg" alt="GitHub Icon" src="assets/icons/github.svg">
   </div>
 
   <!-- home -->
@@ -100,49 +89,15 @@
         <b class="highlight bold">Tools/Misc:</b> Git/GitHub, Microsoft Excel, Google Sheets, Power BI, Tableau, Firebase, Jupyter, LaTeX
       </li>
     </ul>
+    
+    <p>Below are some <b class="highlight bold">projects</b> I've worked on in the past year or two, either for hackathons or just for fun.</p>
   </div>
-
-  <!-- experience -->
-  <!-- <div id="experience">
-    <h1 class="highlight bold no-bottom-margin"><span class="small">2.</span> Featured Work</h1>
-    <div class="horizontal-line"></div>
-    <div id="featured">
-      <p>
-        In early 2024, I took up a remote commission to <b class="bold">build a new full-stack website</b> for the team over at <a target="_blank" href="https://talkingalbums.co.uk/" class="enchanted bold">TalkingAlbums.co.uk</a>, a review-aggregation platform centered around a large active community of music enthusiasts.
-      </p>
-      <p>
-        In this time, I accomplished the following:
-      </p>
-      <ul>
-        <li><b class="bold">Redesigned the front-end from the ground up</b>, using a modern tech stack including Vite, React, TypeScript, and Tailwind CSS.</li>
-        <li><b class="bold">Developed a back-end RESTful API</b> using Express and Node.js, allowing users to interact with site content by performing CRUD operations via HTTP methods.</li>
-        <li>Migrated all content to a <b class="bold">scalable database</b>, allowing storage of unlimited entries.</li>
-        <li>Implemented <b class="bold">robust user authentication</b> via Firebase and OAuth2 with OIDC.</li>
-        <li>Crafted <b class="bold">multiple new features</b> - for example, user profiles, which are extensively customizable and contain automatically generated graphs and stats.</li>
-      </ul>
-      <p>
-        As a result, they saw unbelievable results:
-      </p>
-      <ul>
-        <li><b class="bold">294%</b> increase in <b class="bold">site traffic</b>.</li>
-        <li><b class="bold">17-point</b> increase in <b class="bold">Net Promoter Score</b> (NPS).</li>
-        <li><b class="bold">100%</b> increase in <b class="bold">user-submitted reviews</b>.</li>
-        <li>Vastly improved <b class="bold">SEO ranking</b>.</li>
-        <li><b class="bold">88%</b> increase in <b class="bold">self-reported user satisfaction</b>.</li>
-      </ul>
-      <p class="project-technologies">(Key technologies: React, TypeScript, JavaScript, HTML, CSS, Tailwind, Vite, Express, Node.js, SQL, Firebase, OAuth2/OIDC)</p>
-   </div>
-  </div> -->
 
   <!-- projects -->
   <div id="projects">
-    <h1 class="highlight bold no-bottom-margin"><span class="small">2.</span> Projects</h1>
+    <h1 class="highlight bold no-bottom-margin"><span class="small">2.</span> Personal Projects</h1>
     <div class="horizontal-line"></div>
-
-    <p>
-      Below are some projects I've worked on in the past year or two — some of which for school projects or hackathons, others for fun.
-    </p>
-
+    <div id="project-mega-container">
     <!-- project slot -->
     <div class="project-container">
       <div class="project-image-container">
@@ -162,7 +117,6 @@
       <div class="project-text-container">
         <a target="_blank" href="https://github.com/e-woo/stellar-savings" class="project-title enchanted bold">Stellar Savings</a>
         <p>A <b class="highlight bold">personal finance web application</b> designed for children, with a focus on <b class="highlight bold">financial literacy and education.</b> Built for <a href="https://calgaryhacks.ca/" class="enchanted bold">CalgaryHacks 2024</a>.</p>
-        <p class="project-technologies">React, TypeScript, Tailwind CSS, Vite</p>
       </div>
     </div>
 
@@ -174,45 +128,21 @@
       <div class="project-text-container">
         <a target="_blank" href="https://farazht.github.io/elegantchaos/" class="project-title enchanted bold">elegantchaos</a>
         <p>Tool for <b class="highlight bold">visualizing chaotic mathematical systems</b> based on x-y-time equations (3D Spacetime).</p>
-        <p class="project-technologies">HTML, CSS, JavaScript</p>
       </div>
     </div>
 
     <!-- project slot -->
-    <div class="mini-project">
-      <a target="_blank" href="https://github.com/farazht/coronary-heart-disease/blob/main/main.ipynb" class="project-title enchanted bold" style="font-size: larger;">Identifying Coronary Heart Disease</a>
-      <span> - Comparing the efficacy of four different models in <b class="highlight bold">detecting coronary heart disease</b> (@ Calgary Project-Based Hackathon).</span>
-      <span class="project-technologies">(Python, scikit-learn, NumPy, pandas, Matplotlib)</span>
+    <div class="project-container">
+      <div class="project-image-container">
+        <img class="project-image" alt="Project Preview" src="assets/projects/heart.png">
+      </div>
+      <div class="project-text-container">
+        <a target="_blank" href="https://github.com/farazht/coronary-heart-disease/blob/main/main.ipynb" class="project-title enchanted bold">Identifying Coronary Heart Disease</a>
+        <p>Data classification project - comparing the efficacy of four different models in <b class="highlight bold">detecting coronary heart disease</b> (@ Calgary Project-Based Hackathon).</p>
+      </div>
     </div>
 
-    <!-- project slot -->
-    <div class="mini-project">
-      <a target="_blank" href="https://github.com/emilywang0/stat201-vancouver-crime-analysis/blob/main/Project.ipynb" class="enchanted bold" style="font-size: larger;">Analyzing Vancouver Crime Rates</a>
-      <span> - Investigating <b class="highlight bold">Vancouver crime rates relative to wealth</b> in two neighbourhoods through hypothesis testing.</span>
-      <span class="project-technologies">(R, Jupyter, tidyverse)</span>
     </div>
-
-    <!-- project slot -->
-    <!-- <div class="mini-project">
-      <a target="_blank" href="https://github.com/farazht/showdown" class="project-title enchanted bold" style="font-size: larger;">Showdown!</a>
-      <span> - <b class="highlight bold">Fast-paced word game</b> featuring multiple gamemodes and user-friendly tutorials, built with the discord.py API wrapper.</span>
-      <span class="project-technologies">(Python, discord.py)</span>
-    </div> -->
-
-    <!-- project slot -->
-    <!-- <div class="mini-project">
-      <a target="_blank" href="https://whos-the-goat.web.app/" class="project-title enchanted bold" style="font-size: larger;">Who's The GOAT?</a>
-      <span> - A <i>totally serious and extremely accurate</i> experiment to determine the <b class="highlight bold">Greatest Human Of All Time</b> (w/ <a class="enchanted bold" href="https://jacob-guglielmin.web.app/" target="_blank">@Jacob Guglielmin</a>)</span>
-      <span class="project-technologies">(JavaScript, HTML, CSS, Firebase)</span>
-    </div> -->
-
-    <!-- project slot -->
-    <div class="mini-project">
-      <a target="_blank" href="https://github.com/farazht/dsci-100-2022w1-group-114/blob/main/Group%20Report.ipynb" class="project-title enchanted bold" style="font-size: larger;">Classifying Red Wine Quality</a>
-      <span> - <b class="highlight bold">Exploratory data project</b> to determine whether the quality of red wine can accurately be predicted from its physical characteristics.</span>
-      <span class="project-technologies"> - R, Jupyter, tidyverse</span>
-    </div>
-
   </div>
 
   <!-- contact -->
