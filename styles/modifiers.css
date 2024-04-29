@@ -1,6 +1,6 @@
 /* text */
 #title {
-    font-size: 3.5rem;
+    font-size: 4.5em;
     font-weight: 700;
     margin: 0;
 }
@@ -51,11 +51,10 @@
     scale: 0.85;
 }
 
-
 /* mobile/tablet */
 @media (max-width: 767px) and (orientation: portrait) {
     #title {
-        font-size: 2.25rem;
+        font-size: 2.5rem;
         font-weight: 700;
     }
     .typing-animation {
