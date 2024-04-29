@@ -4,7 +4,7 @@
 <p align="center">
   Personal website for links, projects, and more.
 </p>
-<img alt="Banner" src="">
+<img alt="Banner" src="https://raw.githubusercontent.com/farazht/portfolio/main/rounded.png">
 
 ## 🛠 Setup
 
