@@ -78,11 +78,11 @@ const projectItems = [
     description: (
       <>
         Full-stack government policy discussion platform with forums, petitions, polls,
-        interactive maps, AI integration, and more. Placed{" "}
+        interactive maps, LLM integration, and more. Placed{" "}
         <span className="font-semibold text-white">Top 10</span> @ HackTheChange.
       </>
     ),
-    tags: ["full-stack", "relational-database", "ai"],
+    tags: ["full-stack", "relational-database", "llm"],
     image: "/projects/billboard.png",
     link: "https://github.com/faraz-t/BillBoard",
   },
@@ -171,26 +171,20 @@ export default function HomePage() {
 
         <Fade>
           <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 mb-3">
-            I study at <span className="text-white">UBC</span>, where I focus on full-stack development, data science, and machine learning.
+            I currently work at <span className="text-white">Health Canada</span> as a <span className="text-white">Junior Data Scientist</span>, where I focus on data analysis, machine learning, and developing internal tools.
           </p>
         </Fade>
 
-        {/* <Fade>
-          <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 mb-6">
-            I'm studying computer science & data science at UBC, where I focus
-            on software development, data, and machine learning. I also do
-            full-stack development & admin work at UBC Bionics, building projects
-            while leading a team of web devs, financial officers, and sponsorship
-            coordinators. Previously, I did freelance web development for a
-            review aggregator company and helped them reach a 2x increase in
-            traffic.
+        <Fade>
+          <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 mb-3">
+          I have a degree in Computer Science & Data Science from <span className="text-white">UBC</span>. I previously did full-stack development for <span className="text-white">UBC Bionics</span>, and also did freelance development for a review-aggregator company.
           </p>
-        </Fade> */}
+        </Fade>
 
         <Fade>
           <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 mb-6">
             This site is a collection of some of my recent projects and
-            experiments. I hope you find something interesting! <span className="text-[var(--foreground)]/40 italic">(more info coming soon)</span>
+            experiments. I hope you find something interesting!
           </p>
         </Fade>
 

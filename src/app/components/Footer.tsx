@@ -53,6 +53,7 @@ export default function Footer() {
     const SWIRL = 0.14;
     const currentYear = new Date().getFullYear();
     const TEXT = `faraz.me ©${currentYear}`;
+    const FONT = '400 320px Anton';
 
     const getTileColor = (): string => {
       const t = colorRef.current;
@@ -187,13 +188,6 @@ export default function Footer() {
       mouseRef.current = { x: -9999, y: -9999 };
     };
 
-    resize();
-    animationFrame = requestAnimationFrame(animate);
-
-    window.addEventListener("resize", resize);
-    window.addEventListener("mousemove", handleMouseMove);
-    window.addEventListener("mouseleave", handleMouseLeave);
-
     const repInput = repulsionInputRef.current;
     const attInput = attractionInputRef.current;
     const tsInput = tileSizeInputRef.current;
@@ -220,7 +214,30 @@ export default function Footer() {
     tsInput?.addEventListener("input", onTileSize);
     colInput?.addEventListener("input", onColor);
 
+    let cancelled = false;
+
+    const start = async () => {
+      try {
+        await document.fonts.load(FONT);
+        await document.fonts.ready;
+      } catch {
+        // Fall back to the current font state if the font load promise rejects.
+      }
+
+      if (cancelled) return;
+
+      resize();
+      animationFrame = requestAnimationFrame(animate);
+
+      window.addEventListener("resize", resize);
+      window.addEventListener("mousemove", handleMouseMove);
+      window.addEventListener("mouseleave", handleMouseLeave);
+    };
+
+    void start();
+
     return () => {
+      cancelled = true;
       cancelAnimationFrame(animationFrame);
       window.removeEventListener("resize", resize);
       window.removeEventListener("mousemove", handleMouseMove);
