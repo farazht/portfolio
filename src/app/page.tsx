@@ -106,7 +106,7 @@ const projectItems = [
       <>
         Cybersecurity system designed for growing canadian businesses in
         healthcare. Placed{" "}
-        <span className="font-semibold text-white">Top 10</span> @ ProduHacks.
+        <span className="font-semibold text-white">Top 15</span> @ ProduHacks.
       </>
     ),
     tags: ["web-app", "cybersecurity", "llm"],
@@ -156,34 +156,56 @@ export default function HomePage() {
           </h1>
           <p className="flex items-center gap-1 text-pretty text-xs sm:text-sm text-[var(--foreground)]/75 mb-12">
             <MapPin className="inline-block" size={10} />
-            Canada
+            AB, Canada
           </p>
         </Fade>
 
         <Fade>
-          <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 mb-3">
-            I am passionate about building software that is{" "}
-            <span className="highlight text-white">simple</span>,{" "}
-            <span className="highlight text-white">powerful</span>, and{" "}
-            <span className="highlight text-white">elegant</span>.
-          </p>
+          <section aria-labelledby="about-me" className="mb-6">
+            <h2 id="about-me" className="highlight text-base sm:text-lg md:text-xl text-white mb-2">
+              Mission:
+            </h2>
+            <ul className="list-disc pl-6 text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 space-y-1">
+              <li>
+                I am passionate about building software that is{" "}
+                <span className="text-white">simple</span>,{" "}
+                <span className="text-white">powerful</span>, and{" "}
+                <span className="text-white">elegant</span>.
+              </li>
+              <li>
+                I mainly specialize in{" "}
+                <span className="text-white">full-stack development</span>,{" "}
+                <span className="text-white">data science</span>, and{" "}
+                <span className="text-white">machine learning</span>.
+              </li>
+            </ul>
+          </section>
         </Fade>
 
         <Fade>
-          <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 mb-3">
-            I currently work at <span className="text-white">Health Canada</span> as a <span className="text-white">Junior Data Scientist</span>, where I focus on data analysis, machine learning, and developing internal tools.
-          </p>
+          <section aria-labelledby="about-me" className="mb-6">
+            <h2 id="about-me" className="highlight text-base sm:text-lg md:text-xl text-white mb-2">
+              History:
+            </h2>
+            <ul className="list-disc pl-6 text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 space-y-1">
+              <li>
+                I currently work at <span className="text-white">Health Canada</span> as a <span className="text-white">Junior Data Scientist</span>, where I focus on data analysis, machine learning, and developing internal tools.
+              </li>
+              <li>
+                I have a degree in Computer Science + Data Science from <span className="text-white">UBC</span>.
+              </li>
+              <li>
+                I was previously part of <span className="text-white">UBC Bionics</span>, where I built & maintained <span className="text-white">two full-stack sites</span> while also leading a team of developers, finance officers, and sponsorship coordinators.
+              </li>
+              <li>
+                I previously worked as a <span className="text-white">freelance developer</span> for a review-aggregator company, where my contributions led to a 87% increase in user satisfaction.
+              </li>
+            </ul>
+          </section>
         </Fade>
-
-        <Fade>
-          <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 mb-3">
-          I have a degree in Computer Science & Data Science from <span className="text-white">UBC</span>. I previously did full-stack development for <span className="text-white">UBC Bionics</span>, and also did freelance development for a review-aggregator company.
-          </p>
-        </Fade>
-
         <Fade>
           <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)]/75 leading-6 sm:leading-7 mb-6">
-            This site is a collection of some of my recent projects and
+            Below is a collection of some of my recent projects and
             experiments. I hope you find something interesting!
           </p>
         </Fade>
